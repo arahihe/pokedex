@@ -1,0 +1,24 @@
+body {
+    background-color: #E74C3C !important;
+    font-family: DotGothic16 !important;
+}
+
+button {
+    background-color: #7DCEA0;
+    font-family: DotGothic16;
+    grid-column: auto;
+}
+
+.pokemon-card {
+    text-align: center;
+}
+
+.row-container {
+    /*column-count: 1;*/
+    text-align: center;
+}
+
+#pokemon-name-search {
+    background-color: #D5D8DC;
+    font-family: DotGothic16;
+}

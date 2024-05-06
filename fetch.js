@@ -61,7 +61,7 @@ document.getElementById("next-button").addEventListener('click', async() => {
         createCard(pokemon);
         console.log(pokemon.name);
     }else{
-        alert("pokemon not found.");
+        alert("Pokémon no encontrado");
     }
 });
 
