@@ -4,18 +4,53 @@ body {
 }
 
 button {
-    background-color: #7DCEA0;
     font-family: DotGothic16;
-    grid-column: auto;
+    /*grid-column: auto;*/
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+}
+
+#previous-button {
+    background-color: rgb(249, 249, 128);
+}
+
+#next-button {
+    background-color: rgb(129, 157, 241);
+}
+
+#submit-button {
+    background-color: #7DCEA0;
+}
+
+div.#dataUser {
+    clear: both !important;
+}
+
+img {
+    border: rgb(6, 158, 204) 2px inset;
+    /*background-color: #ffffff;*/
+    background-image: url('https://cdn.lospec.com/gallery/pokeball-577961.png');
+    background-size: cover;
+}
+
+#card-container {
+    border: 10px rgb(6, 158, 204) outset;
+    max-width: 500px;
+    background-color: rgb(210, 210, 210);
+    margin: 0 auto;
 }
 
 .pokemon-card {
     text-align: center;
+    padding: 10px;
 }
 
 .row-container {
-    /*column-count: 1;*/
-    text-align: center;
+    text-align: center !important;
+    padding: 10px;
 }
 
 #pokemon-name-search {

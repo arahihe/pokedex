@@ -14,22 +14,25 @@
 <body>
     <div class="container">
         <div class="row-container">
-             <label for="pokemon-name">Pokémon (nombre o ID)</label>
-             <input id="pokemon-name-search">
+            <div id="card-container" class="d-flex justify-content-center">
+                <div class="pokemon-card">
+                    <img alt="Imagen de Pokémon">
+                    <p id="pokemon-name">Nombre: </p>
+                    <p id="pokemon-id">ID: </p>
+                    <p id="pokemon-weight">Peso: </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="dataUser">
+        <div class="row-container">
+             <label for="pokemon-name-search">Pokémon</label>
+             <input id="pokemon-name-search" placeholder="nombre o ID">
         </div>
         <div class="row-container">
              <button id="previous-button" class="button">Anterior</button>
              <button id="submit-button" class="button">Pokémon</button>
              <button id="next-button" class="button">Siguiente</button>
-        </div>
-    </div>
-
-    <div id="card-container">
-        <div class="pokemon-card">
-            <img" alt="Imagen de Pokémon">
-            <p id="pokemon-name">Nombre: </p>
-            <p id="pokemon-id">ID: </p>
-            <p id="pokemon-weight">Peso: </p>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
